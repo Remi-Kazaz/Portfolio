@@ -1,0 +1,9 @@
+1. django-admin startproject Name(=Portfolio)
+2. python3 manage.py startapp main
+3. In settings.py, added import os,then added 'main' in INSTALLED_APPS list, then added variables MEDIA_URL (path to images) & MEDIA_ROOT
+4. In models.py, added classes Tag, Project & ProjectImage
+5. In admin.py, added classes ProjectImageInline, ProjectAdmin & TagAdmin, then added admin.site.register() functions for each class.
+6. python3 manage.py makemigrations
+7. python3 manage.py migrate
+8. python3 manage.py createsuperuser
+
